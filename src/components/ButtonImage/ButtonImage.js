@@ -7,7 +7,7 @@ import Image from '../Image';
 export default function ButtonImage(props) {
   let style = {};
   let index = 0;
-  const size = 30;
+  const size = 48;
 
   if (props.position === 'right') {
     style.float = 'right';
@@ -30,7 +30,7 @@ export default function ButtonImage(props) {
         y={0} x={index}
         width={size} height={size}
         backgroundHeight={size}
-        file="img/buttons.png"
+        file="img/botoes.png"
       />
     </div>
   );
